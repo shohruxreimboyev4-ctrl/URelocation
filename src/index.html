@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URelocation</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="w-full py-4">
+      <div
+        class="container mx-auto flex items-center justify-between px-4 md:px-8 lg:px-20"
+      >
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <a href="#">
+            <img
+              src="../img/logo (4).svg"
+              alt="URelocation logo"
+              class="h-10 md:h-15"
+            />
+          </a>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="hidden md:flex items-center space-x-8">
+          <a href="#" class="text-green-600 font-medium">Home</a>
+          <div class="relative group">
+            <button
+              class="flex items-center space-x-1 text-gray-700 hover:text-green-600"
+            >
+              <span>Services</span>
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <!-- Dropdown -->
+            <div
+              class="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md p-2 w-40"
+            >
+              <a
+                href="#"
+                class="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >Service 1</a
+              >
+              <a
+                href="#"
+                class="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >Service 2</a
+              >
+            </div>
+          </div>
+          <a href="#" class="text-gray-700 hover:text-green-600">Blog</a>
+          <a href="#" class="text-gray-700 hover:text-green-600">Contact</a>
+        </nav>
+
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden md:inline-block bg-green-600 text-white px-4 lg:px-5 py-2 rounded-full hover:bg-green-700 transition text-sm md:text-base"
+        >
+          <i class="fa-solid fa-circle-check"></i> Take a scoring test
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden text-gray-700 focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+  </body>
+</html>
