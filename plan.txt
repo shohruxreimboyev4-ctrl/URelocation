@@ -1,4 +1,43 @@
 assalomu aleykum ustoz!
-(man darsga kech qolganim uchun unchalik tuhsunmadim uydayam deyarli vaqtim yetmayabdi va ozim ham dangasa bolib qoldim uzur.
-JavaScript darsgacha yetib kelganimdan hursandman 8 oy n101 gutuhida qolaman degan umitdaman.)!
-js darsida refresh berganda savol javob qiladigan narsani organdim 
+(man darsga kech qolganim uchun unchalik tuhsunmadim uydayam deyarli vaqtim yetmayabdi va ozim ham dangasa bolib qoldim uzur.)
+JavaScriptda shunday narasa borki u bizga "Interaktiv harakat" qo'shib beradi! masalan click tugmasini bosganimizda click ochilishi bu Interaktiv harak deyilarkan.
+Biz 3 xil yo'l bilan js ni ishlatamiz 
+1. Browser consolida.
+2. Noed jsda.
+(Eng kop ishlatadiganimiz)
+3. Script tagida.
+Bunda biz index.html ochganimizdan keyin body eng ohiriga script deb teg ochamiz va shuyerda console.log(5 * 8)
+40
+
+console.log (5+5)
+10
+
+qilganimizda consoleda manshu javoblarni ko'rsatadi!
+bu test deyiladi buni ko'pincha For Developerlar ishlatadi!
+Sababi js ishlayabdmi yo'qmi tekshirish uchun1
+
+Lekin index.htmlda huddi shunday qiulib kodlarni yozib bolmaydi sababi js kodlari kopayib ketadi va chalkashadi!
+
+Buning eng oson yoli "main.js" degan file ochib olmaiz va htmlda 
+<script src"./main.js"></script>
+qilib ochgan filemiini ulab qoyamiz va boya yozgan kodlarimizni shu file ga tashlab qo'yamiz yani main.js ga!
+
+js da alert degan kod bor bu shunchaki matn chiqarib beradi masalan 
+
+alert("Salom js")
+va saytga kirib 1ta refresh berganingizda tepada yozuv chiqib keladi!
+Yana bizda "confirm" degan deg bor bu tasdiqlash uchun ishlaydi!
+Masalan uzumga kiirb kiyim kechak bo'limiga otganingizda siz 18 yoshga to'lganmisiz deb so'rasydi bu ham huddi shu narsa.
+
+confirm("Siz 18 yoshga to'lganmisiz?")
+
+huddi shunday
+
+Endi yana "prompt" degan teg bor, bu savol beradi yoki shunga oxshash masalan id yoki email kiritayotganda tepasida yozuib qoyadiyu emailingizni kiriting deb
+bu ham huddi shunday narsa!
+prompt("ismingizni kiriting!") bu malumot olish uchun ishlaydi!
+
+TUGADI!
+
+(ustoz uzur hamma narsani yozib otirmaidm yani hozir ham video darslikni korib bularni yozdim ozi video darslikni ham ko'rmayabman ozgina dangasalik qilib qoyayabman.
+Anig'i ozgina emas yaxshigina uyga vazifalarni chala bajarayotganimni ham sababi shu desam ham boladi ammo asosoiy sabab deya olmayman ham desam ham boladi! )
